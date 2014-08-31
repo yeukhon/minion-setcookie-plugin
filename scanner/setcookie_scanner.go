@@ -148,7 +148,7 @@ func scanSetCookieHeader(url string) {
 			}
 		}
 	}
-
+	response.Body.Close()
 }
 
 func main() {
